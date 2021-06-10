@@ -1,6 +1,6 @@
 {
   "name": "unity-package-single-package",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "displayName": "package-one",
   "description": "Package One description",
   "keywords": [],
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/frg-ivan/unity-package-single-package#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@frg-ivan",
-	"scope" : "@frg-ivan"
+    "scope": "@frg-ivan"
   },
   "dependencies": {
     "cross-var": "^1.1.0"
