@@ -1,29 +1,28 @@
 {
-  "name": "@frg-ivan/unity-package-single-package",
-  "version": "0.3.0",
-  "displayName": "package-one",
-  "description": "Package One description",
-  "keywords": [],
-  "author": "company",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "minor": "npm version minor -m \"[RELEASE][MINOR] %npm_package_name%@%s\"",
-    "publish": "(git push --quiet) & (git push --tags --quiet) & (echo Published %npm_package_name%@%npm_package_version%)"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/frg-ivan/unity-package-single-package.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/frg-ivan/unity-package-single-package/issues"
-  },
-  "homepage": "https://github.com/frg-ivan/unity-package-single-package#readme",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@frg-ivan"
-  },
-  "dependencies": {
-    "cross-var": "^1.1.0"
-  },
-  "main": "index.js"
+	"name": "@frg-ivan/unity-package-single-package",
+	"version": "0.3.0",
+	"displayName": "package-one",
+	"description": "Package One description",
+	"keywords": [],
+	"author": "company",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"minor": "npm version minor -m \"[RELEASE][MINOR] %npm_package_name%@%s\"",
+		"publish": "(git push --quiet) & (git push --tags --quiet) & (echo Published %npm_package_name%@%npm_package_version%)"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frg-ivan/unity-package-single-package.git"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/frg-ivan/unity-package-single-package/issues"
+	},
+	"homepage": "https://github.com/frg-ivan/unity-package-single-package#readme",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/@frg-ivan"
+	},
+	"dependencies": {
+		"cross-var": "^1.1.0"
+	}
 }
