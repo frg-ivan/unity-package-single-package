@@ -1,7 +1,6 @@
 {
-
 	"name": "@frg-ivan/unity-package-single-package",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"displayName": "package-one",
 	"description": "Package One description",
 	"keywords": [],
