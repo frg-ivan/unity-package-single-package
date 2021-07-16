@@ -4,7 +4,7 @@ on:
   push:
     #Triggered when new tags pushed upstream (tags must have semver format)
     tags:
-      - 'v*.*.*'
+      - 'v*.*.*@*'
 
 jobs:
   publish-gpr:
